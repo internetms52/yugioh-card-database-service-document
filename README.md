@@ -25,7 +25,7 @@
  - http://36.229.109.58:8903/api/v1/cards/{locale}/elastic/json/dsl
  
  ### 本 API 支持使用 [Elasticsearch Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html) 作為查詢語句。
-Elasticsearch Query DSL 是 Elasticsearch 提供的彈性 JSON 格式的查詢語法。它支持構建從简單查詢到複雜邏輯的各種查詢。
+Elasticsearch Query DSL 是 Elasticsearch 提供的彈性 JSON 格式的查詢語法。它支持建構從簡單查詢到複雜邏輯的各種查詢。
 例如：
 ```
 {
