@@ -1,5 +1,6 @@
 # yugioh-card-database-service-document
-yugioh-card-database-service-document
+ - 遊戲王卡片的資訊服務，資料是從konami的網站上爬下來的，所以有更新的話也會自動更新
+ - 如果有問題的話也歡迎寄信給我internetnsm52@gmail.com
 
 ## 主要功能
  - 查詢該語系所有Cid清單
