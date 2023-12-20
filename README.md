@@ -5,7 +5,7 @@
 ## 主要功能
  - 查詢該語系所有cid清單
  - 依照cid查詢卡片內容
- - 使用Elasticsearch Json Query Dsl查詢卡片內容
+ - 使用Elasticsearch Json Query DSL查詢卡片內容
  
  ### 支持語系
  - 英文(en)
