@@ -3,7 +3,7 @@
  - 如果有問題的話也歡迎寄信給我internetms52@gmail.com
 
 ## 主要功能
- - 查詢該語系所有Cid清單
+ - 查詢該語系所有cid清單
  - 依照cid查詢卡片內容
  - 使用Elasticsearch Json Query Dsl查詢卡片內容
  
