@@ -10,7 +10,7 @@
  ### 支持語系
  - 英文(en)
  - 日文(jp)
- #### 語系信息應包含在路徑變量中,例如:http://36.229.86.252/api/v1/cards/en/cids
+ #### 語系信息應包含在路徑變數中,例如:http://36.229.86.252/api/v1/cards/en/cids
  
 ### API Entrypoint
 
