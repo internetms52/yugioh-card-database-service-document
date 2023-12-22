@@ -42,21 +42,23 @@ Elasticsearch Query DSL 是 Elasticsearch 提供的彈性 JSON 格式的查詢�
  #### 組合查詢字段
  ##### 文本字段型別可以使用模糊搜尋
  
-| 字段型別  	| 		名稱		|		描述				|
-| ------------- | ----------------- |---------------------------|
-|	文本		| 	enName			| 英文卡名(en限定)			|
-|	文本		| 	kanjiName		| 日文漢字卡名(jp限定)		|
-|	文本		| 	kanaName		| 日文假名卡名(jp限定)		|
-|	文本		| 	attributes		| 屬性						|
-|	數字		| 	level			| 星數						|
-|	數字		| 	rank			| 超量階級					|
-|	字串		| 	cid				| 卡片唯一號碼				|
-|	文本		| 	atk				| 攻擊力(部份為-浮動數值)	|
-|	文本		| 	def				| 防禦力(部份為-浮動數值)	|
-|	文本		| 	monsterTypes	| 怪獸類型(怪獸卡專用)		|
-|	文本		| 	cardTypes		| 卡片類型(非怪獸卡專用)	|
-|	數字		| 	linkLevel		| 連接等級					|
-|	數字		| 	linkDirections	| 連接方向					|
-|	數字		| 	pendulumScale	| 靈擺階級					|
-|	文本		| 	pendulumEffect	| 靈擺效果					|
-|	文本		| 	cardText		| 卡片效果					|
+| 字段型別  	    | 		名稱		           | 		描述				         |
+|------------|------------------|------------------|
+| 	TEXT		    | 	enName			       | 英文卡名(en限定)			    |
+| 	TEXT		    | 	kanjiName		     | 日文漢字卡名(jp限定)		   |
+| 	TEXT		    | 	kanaName		      | 日文假名卡名(jp限定)		   |
+| 	TEXT		    | 	attributes		    | 屬性						         |
+| 	INTEGER		 | 	level			        | 星數						         |
+| 	INTEGER		      | 	rank			         | 超量階級					        |
+| 	KEYWORD		      | 	cid				         | 卡片唯一號碼				       |
+| 	INTEGER		      | 	atk				         | 攻擊力(部份為-浮動數值)	   |
+| 	INTEGER		      | 	def				         | 防禦力(部份為-浮動數值)	   |
+| 	KEYWORD	  | 	atkRemark				   | 攻擊力備註(-,?)	 |
+| 	KEYWORD		 | 	defRemark				   | 防禦力備註(-,?)	      |
+| 	TEXT		      | 	monsterTypes	   | 怪獸類型(怪獸卡專用)		    |
+| 	TEXT		      | 	cardTypes		     | 卡片類型(非怪獸卡專用)	    |
+| 	INTEGER		      | 	linkLevel		     | 連接等級					        |
+| 	INTEGER		      | 	linkDirections	 | 連接方向					        |
+| 	INTEGER		      | 	pendulumScale	  | 靈擺階級					        |
+| 	TEXT		      | 	pendulumEffect	 | 靈擺效果					        |
+| 	TEXT		      | 	cardText		      | 卡片效果					        |
