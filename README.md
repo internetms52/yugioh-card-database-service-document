@@ -1,3 +1,4 @@
+# ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=http%3A%2F%2Fygo-card-db.7fyyuujdwn39.online%2Fapi%2Fv1%2Fcards%2Fen%2Fcids&query=1&label=Service%20Status)
 # yugioh-card-database-service-document
  - 遊戲王卡片的資訊服務，資料是從konami的網站上爬下來的，所以有更新的話也會自動更新
  - 如果有問題的話也歡迎寄信給我internetms52@gmail.com
