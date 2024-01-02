@@ -65,3 +65,5 @@ Elasticsearch Query DSL 是 Elasticsearch 提供的彈性 JSON 格式的查詢�
 | 	TEXT		      | 	cardText		      | 卡片效果					        |
 
 ## 程式更版記錄請見[wiki](https://github.com/internetms52/yugioh-card-database-service-document/wiki/History)
+
+## 停機公告 UTC+8 2024/01/02 08:35  ~2024/01/02 13:00
